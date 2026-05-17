@@ -179,6 +179,7 @@ class Home:
                         self.barrack_out.in_worker(worker1)
                 else:
                     print("No product available in Home.produce")
+                    self.barrack_out.in_worker(worker1)
             else:
                 print("No worker available in Home.produce")
         else:
